@@ -113,7 +113,11 @@ header
   height: 60px;
   background-color: #F56B2A;
   display: flex;
+  position: fixed;
+  top: 0;
 }
+
+/*~Menu~*/
 .menucontMob
 {
   margin: 10px 0px 10px 10px;
@@ -130,6 +134,7 @@ header
   font-family: "Open Sans",sans-serif;
 }
 
+/*~Logo~*/
 .logocontMob
 {
   width: 140px;
@@ -144,13 +149,17 @@ header
 }
 
 /*SECTION PART*/
-
-section .mapfra, section .region
+section
+{
+  margin-top: 60px;
+}
+section .region
 {
   display: none;
 }
 
-section .titre
+/*~Titre~*/
+section .container .titre
 {
   display: flex;
   flex-direction: column;
@@ -171,6 +180,7 @@ section .container .titre span
   color: #F56B2A;
 }
 
+/*~Bouton déposer une annonce~*/
 section .container .titre .annonce
 {
   color: white;
@@ -185,6 +195,7 @@ section .container .titre .annonce
   padding: 0 75px;
 }
 
+/*~Bouton rechercher autout de moi~*/
 section .container .titre .recherche
 {
   color: #4183D7;
@@ -199,13 +210,57 @@ section .container .titre .recherche
   padding: 0 62px;
 }
 
-section .mapfra
+/*~Map France~*/
+section .container .mapfra
+{
+  text-align:center;
+  font-size: 1em;
+  text-decoration: underline;
+}
+
+section .container .mapfra figure
 {
   margin: auto;
   width: 90%;
+  margin-top: 1.5em;
 }
 
+#France
+{
+  width: 100%;
+}
 
+/*~Sélection région~*/
+section .containerMob
+{
+  width: 95%;
+  margin: auto;
+}
+
+section .containerMob .regionMob
+{
+  width: 100%;
+  font-family: "Open Sans",sans-serif;
+  font-size: 18px;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  background: transparent;
+  padding: 10px;
+  margin: 1.2em 0 1.3em;
+}
+
+/*~Description site <p>~*/
+section .containerMob p
+{
+  text-align: center;
+  font-size: 13px;
+  font-family: "Open Sans",sans-serif;
+}
+
+section .containerMob span
+{
+  color: #4586CC;
+}
 
 
 
