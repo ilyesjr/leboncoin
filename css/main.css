@@ -101,6 +101,7 @@ textarea {
    <!-- ==================== -->
    */
 
+/*HEADER PART*/
 .logomenucontDesk , .buttoncontDesk
 {
   display: none;
@@ -142,13 +143,67 @@ header
   height: 100%;
 }
 
+/*SECTION PART*/
 
+section .mapfra, section .region
+{
+  display: none;
+}
 
+section .titre
+{
+  display: flex;
+  flex-direction: column;
+}
 
+section .container .titre h1
+{
+  font-size: 14px;
+  font-family: "Open Sans",sans-serif;
+  text-align: center;
+  line-height: 21px;
+  margin-bottom: 20px;
+  margin-top: 21px;
+}
 
+section .container .titre span
+{
+  color: #F56B2A;
+}
 
+section .container .titre .annonce
+{
+  color: white;
+  background-color: #4183D7;
+  line-height: 38px;
+  border-radius: 4px;
+  font-size: 13px;
+  text-decoration: none;
+  font-family: "Open Sans",sans-serif;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 0 75px;
+}
 
+section .container .titre .recherche
+{
+  color: #4183D7;
+  background-color: white;
+  line-height: 38px;
+  border-radius: 4px;
+  border: 1px solid #4183D7;
+  font-size: 13px;
+  text-decoration: none;
+  font-family: "Open Sans",sans-serif;
+  margin: auto;
+  padding: 0 62px;
+}
 
+section .mapfra
+{
+  margin: auto;
+  width: 90%;
+}
 
 
 
