@@ -95,7 +95,21 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   /*
+   <!-- ==================== -->
+   <!-- Mobile First -->
+   <!-- ==================== -->
+   */
 
+.logomenucontDesk , .buttoncontDesk
+{
+  display: none;
+}
+
+header
+{
+  background-color: #F56B2A;
+}
 
 
 
