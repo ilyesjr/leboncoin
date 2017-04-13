@@ -101,7 +101,7 @@ textarea {
    <!-- ==================== -->
    */
 
-/*HEADER PART*/
+/*==============HEADER PART==============*/
 .logomenucontDesk , .buttoncontDesk
 {
   display: none;
@@ -148,12 +148,12 @@ header
   height: 100%;
 }
 
-/*SECTION PART*/
+/*==============SECTION PART==============*/
 section
 {
   margin-top: 60px;
 }
-section .region
+section .region, section .listWhite
 {
   display: none;
 }
@@ -253,8 +253,10 @@ section .containerMob .regionMob
 section .containerMob p
 {
   text-align: center;
+  width: 98%;
   font-size: 13px;
   font-family: "Open Sans",sans-serif;
+  margin-bottom: 2em;
 }
 
 section .containerMob span
@@ -262,8 +264,41 @@ section .containerMob span
   color: #4586CC;
 }
 
+/*==============FOOTER PART==============*/
+footer .hautFooter, footer .partner, footer .mention .social p
+{
+  display: none;
+}
 
+footer .mention
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #474747;
+  height: 75px;
+}
 
+footer .mention p
+{
+  font-size: 14px;
+  font-family: "Open Sans",sans-serif;
+  font-weight: lighter;
+  color: #fff;
+  margin-left: 10px;
+}
+
+footer .mention .social
+{
+  display: flex;
+}
+
+footer .mention .social img
+{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
