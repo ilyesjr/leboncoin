@@ -299,6 +299,161 @@ footer .mention .social img
   height: 30px;
   margin-right: 10px;
 }
+/*========================================================================*/
+/*========================================================================*/
+
+@media (min-width: 972px)
+{
+
+  /*
+  <!-- ==================== -->
+  <!-- Desktop -->
+  <!-- ==================== -->
+  */
+
+/*==============HEADER PART==============*/
+  header
+  {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header .menucontMob, header .logocontMob
+  {
+    display: none;
+  }
+
+  header .logomenucontDesk, header aside .buttoncontDesk
+  {
+    display: flex;
+  }
+
+  /*~Logo~*/
+  header .logocont
+  {
+    width: 140px;
+    height: 40px;
+    margin: auto;
+    padding-left: 1em;
+  }
+
+  header .logocont img
+  {
+    width: 100%;
+    height: 100%;
+  }
+
+  /*~Menu~*/
+  header .menucont ul
+  {
+    display: flex;
+    list-style-type: none;
+    margin-right: 10px;
+    align-content: center;
+  }
+
+  header .menucont li
+  {
+    margin-right: 10px;
+  }
+
+  header .menucont a
+  {
+    font-family: "Open Sans",sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  /*~LogIn~*/
+  header .buttoncontDesk
+  {
+    display: flex;
+    background: transparent;
+  }
+
+  header .buttoncontDesk button
+  {
+    display: flex;
+    background: transparent;
+    color: white;
+    font-family: "Open Sans",sans-serif;
+    font-size: 13px;
+    border: 1px solid white;
+    border-top: none;
+    border-bottom: none;
+    margin-right: 1em;
+  }
+
+  header .buttoncontDesk button .material-icons
+  {
+    margin-right: 10px;
+  }
+
+/*==============SECTION PART==============*/
+  section .containerMob .regionMob
+  {
+    display: none;
+  }
+
+  /*~Titre~*/
+  section .container .titre
+  {
+    width: 45%;
+  }
+
+  section .container .titre h1
+  {
+    text-align: left;
+    margin-left: 1em;
+  }
+
+  section .container .titre .annonce
+  {
+    padding: 0 150px 0 150px;
+    margin-left: 1em;
+  }
+
+  section .container .titre .recherche
+  {
+    padding: 0 136px 0 136px;
+    margin-left: 1em;
+  }
+
+  /*~Map France~*/
+  section .container .mapfra figure
+  {
+    width: 30%
+  }
+  #France
+  {
+    width: 100%;
+  }
+
+  /*~Région~*/
+  section .container .region
+  {
+    display: flex;
+    float: right;
+    margin-top: -35em;
+  }
+
+  section .container .region ul
+  {
+    text-align: right;
+    list-style-type: none;
+    font-family: "Open Sans";
+    color: #4586CC;
+  }
+
+
+
+
+
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
