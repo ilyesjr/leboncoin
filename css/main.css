@@ -165,7 +165,7 @@ section .container .titre
   flex-direction: column;
 }
 
-section .container .titre h1
+section .container .titre h2
 {
   font-size: 14px;
   font-family: "Open Sans",sans-serif;
@@ -402,7 +402,7 @@ footer .mention .social img
     width: 45%;
   }
 
-  section .container .titre h1
+  section .container .titre h2
   {
     text-align: left;
     margin-left: 1em;
@@ -435,7 +435,7 @@ footer .mention .social img
   {
     display: flex;
     float: right;
-    margin-top: -35em;
+    margin-top: -42em;
   }
 
   section .container .region ul
@@ -444,6 +444,7 @@ footer .mention .social img
     list-style-type: none;
     font-family: "Open Sans";
     color: #4586CC;
+    margin-right: 1em;
   }
 
 
